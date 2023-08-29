@@ -1,0 +1,128 @@
+:root {
+    --background-color: #F0F2F5;
+    --blue: #404EED;
+    --white: #fff;
+    --grey: #E7E7E7;
+    --roxo: #7241a1;
+  }
+
+  * {
+    padding: 0;
+    margin: 0;
+  }
+
+  body {
+    background: var(--background-color);
+    --webkit-font-smoothing: antialiased;
+  }
+
+  body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+  }
+
+  button {
+    cursor: pointer;
+  }
+
+  .container {
+    margin: 0 auto;
+    padding: 0 20px;
+    max-width: 1200px;
+    box-sizing: border-box;
+  }
+
+  .header {
+    background-color: var(--blue);
+  }
+
+ .header header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between ;
+  padding: 1.75rem 0rem; 
+ }
+
+.header header h1 {
+  color: var(--white);
+}
+
+.meus-links {
+  display: flex;
+  align-items: center;
+  gap: 2.75rem;
+}
+
+.meus-links a {
+  text-decoration: none;
+  color: var(--white);
+  font-weight: 600;
+}
+
+.meus-links a:hover {
+  color: #000;
+}
+
+.header header button {
+  border: none;
+  background-color: var(--white);
+  padding: 0.75rem 1rem;
+  border-radius: 2rem;
+  transition: 200ms ease-in-out;
+}
+
+.header header button:hover {
+  color: var(--blue);
+  -webkit-box-shadow: 0px 0px 27px -2px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 27px -2px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 27px -2px rgba(0,0,0,0.75);
+}
+.background-color-view {
+  background-color: var(--blue);
+  min-height: 70vh;
+}
+
+.text {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 4rem;
+  gap: 2rem;
+
+}
+
+.text .texto-central {
+  text-align: center;
+}
+
+.text h1 {
+  color: var(--white);
+  font-size: 4rem;
+  font-weight: 900;
+  text-align: center;
+  line-height: 1;
+}
+
+.text .texto-central {
+  color: var(--white);
+}
+
+.text input {
+  outline: none;
+  padding: 1rem 1.75rem;
+  border-radius: 2rem;
+  border: 0;
+  width: 30%;
+}
+
+.text .textinho {
+  font-size: 0.75rem;
+  color: var(--white);
+}
+
+.text .textinho  a{
+  text-decoration: underline;
+  font-size: 0.75rem;
+  color: var(--white);
+}
